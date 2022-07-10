@@ -11,7 +11,7 @@ public class won{
 
         System.out.println("Hello, "+str+"!");
 
-	int frag1=0,frag2=0;
+        int frag1=0,frag2=0;
         System.out.println("Tossing a coin...");
 
         for(int i=0;i<5;i++){
@@ -25,5 +25,8 @@ public class won{
             else if(coin==1){
                 ++frag2;
                 System.out.println("Tails");
+            }
+        }
+        System.out.println("Heads: "+frag1+", Tails: "+frag2);
     }
 }
