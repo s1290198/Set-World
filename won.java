@@ -3,6 +3,23 @@ import java.util.Random;
 public class won{
         public static void main(String[] args){
 
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		int frag1=0,frag2=0;
         System.out.println("Tossing a coin...");
 
