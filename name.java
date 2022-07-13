@@ -1,17 +1,17 @@
 import java.util.Random;
-
+import java.util.Scanner;
 
 public class Coin{
     public static void main(String[] args){
 
-        
-        
+        System.out.println("Who are you");
+        System.out.print("> ");
 
-        
-        
+        Scanner scan = new Scanner(System.in);
+        String str = scan.next();
 
-        
-
+        System.out.println("Hello, "+str+"!");
+	
         int frag1=0,frag2=0;
         System.out.println("Tossing a coin...");
 
